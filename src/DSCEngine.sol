@@ -148,7 +148,7 @@ contract DSCEngine is ReentrancyGuard {
     }
 
     /*
-     * @notice follows CEI 
+     * @notice follows CEI
      * @param tokenCollateralAddress The address of the token to deposit as collateral
      * @param amountCollateral The amount of collateral to deposit
      */
@@ -190,7 +190,7 @@ contract DSCEngine is ReentrancyGuard {
     }
 
     /*
-     * @notice follows CEI 
+     * @notice follows CEI
      * @param amountDscToMint The amount of decentralized stablecoin to mint
      * @notice they must have more collateral value than the minimum threshold
      */
